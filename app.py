@@ -14,7 +14,7 @@ client = OpenAI(
 
 
 st.title("Harsh AI Chat")
-st.caption("🚀 A chatbot made by Harshit")
+st.caption("🚀 A chatbot made by Harshit - Ask me anything!")
 if "messages" not in st.session_state:
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
 
